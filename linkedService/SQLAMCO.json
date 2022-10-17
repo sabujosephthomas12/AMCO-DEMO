@@ -1,0 +1,17 @@
+{
+	"name": "SQLAMCO",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=ASWW00144\\AMCO;initial catalog=CarLo",
+			"userName": "Sabu.Joseph@amco-group.co.uk",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjOWU0ZjA5OS0zZjI3LTQ2MzEtYmFkNC01NTlhODBhZGI5ZDIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-SELFHOSTED",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

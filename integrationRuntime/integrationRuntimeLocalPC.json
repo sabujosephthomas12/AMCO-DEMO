@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimeLocalPC",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "LocalPC"
+	}
+}
